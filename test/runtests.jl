@@ -11,4 +11,6 @@ Random.seed!(20260611)
         Aqua.test_all(CavitySpectroscopy; deps_compat=(check_extras=false,))
     end
 
+    include("test_physics.jl")
+
 end
