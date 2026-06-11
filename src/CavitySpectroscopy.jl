@@ -26,4 +26,12 @@ using CurveFit: NonlinearCurveFitProblem, solve, coef, stderror
 import CurveFit: predict, residuals
 using CurveFitModels: dielectric_real, dielectric_imag
 
+include("physics.jl")
+
+# Physics
+export cavity_transmittance, compute_cavity_transmittance
+export refractive_index, extinction_coeff
+export cavity_mode_energy, polariton_branches, polariton_eigenvalues
+export hopfield_coefficients
+
 end # module
