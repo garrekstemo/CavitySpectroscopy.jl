@@ -1,0 +1,14 @@
+using Test
+using CavitySpectroscopy
+using Aqua
+using Random
+
+Random.seed!(20260611)
+
+@testset "CavitySpectroscopy" begin
+
+    @testset "Code quality (Aqua.jl)" begin
+        Aqua.test_all(CavitySpectroscopy; deps_compat=(check_extras=false,))
+    end
+
+end

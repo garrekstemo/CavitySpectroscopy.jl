@@ -1,0 +1,26 @@
+name = "CavitySpectroscopy"
+uuid = "23dbb5c6-5e7c-4fdf-973d-bbe442dcb518"
+authors = ["Garrek Stemo <8449000+garrekstemo@users.noreply.github.com>"]
+version = "0.1.0"
+
+[deps]
+CurveFit = "5a033b19-8c74-5913-a970-47c3779ef25c"
+CurveFitModels = "a3c2e87f-4d91-4e5b-9f3a-7c8b6d2e1f0a"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
+
+[compat]
+Aqua = "0.8"
+CurveFit = "1"
+CurveFitModels = "0.1"
+LinearAlgebra = "1"
+Statistics = "1"
+julia = "1.10"
+
+[extras]
+Aqua = "4c88cf16-eb10-579e-8560-4a9242c79595"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Aqua", "Random", "Test"]
