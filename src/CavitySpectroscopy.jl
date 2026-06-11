@@ -28,6 +28,7 @@ using CurveFitModels: dielectric_real, dielectric_imag
 
 include("physics.jl")
 include("types.jl")
+include("fitting.jl")
 
 # Physics
 export cavity_transmittance, compute_cavity_transmittance
@@ -39,5 +40,8 @@ export hopfield_coefficients
 export CavitySpectrum, CavityFitResult, DispersionFitResult
 export wavenumber, transmittance
 export predict, residuals, format_results
+
+# Fitting
+export fit_cavity_spectrum, fit_dispersion
 
 end # module
