@@ -1,0 +1,7 @@
+[deps]
+CavitySpectroscopy = "23dbb5c6-5e7c-4fdf-973d-bbe442dcb518"
+Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
+
+[compat]
+CavitySpectroscopy = "0.1"
+Documenter = "1"
