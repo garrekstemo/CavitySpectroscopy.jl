@@ -12,5 +12,6 @@ Random.seed!(20260611)
     end
 
     include("test_physics.jl")
+    include("test_types.jl")
 
 end
