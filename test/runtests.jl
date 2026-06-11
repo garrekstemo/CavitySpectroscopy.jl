@@ -13,5 +13,6 @@ Random.seed!(20260611)
 
     include("test_physics.jl")
     include("test_types.jl")
+    include("test_fitting.jl")
 
 end
